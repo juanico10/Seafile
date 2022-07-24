@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    image: mariadb:10.5
+    image: mariadb:focal
     container_name: seafile-mysql
     restart: unless-stopped
     env_file:
