@@ -4,7 +4,13 @@ Seafile es un sistema de software de alojamiento de archivos multiplataforma de 
 ## About
 
 <p align="center">
-<img src="https://github.com/JuanRodenas/Seafile/blob/main/seafile.png" />
+  <img src="https://github.com/JuanRodenas/Seafile/blob/main/seafile.png"
+       width="700"/>
+</p>
+
+<p align="center">
+  <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Symbol.png" 
+       width="300"/>
 </p>
 
 Seafile es un sistema de software de alojamiento de archivos de código abierto y multiplataforma. Los archivos se almacenan en un servidor central y pueden sincronizarse con ordenadores personales y dispositivos móviles a través de aplicaciones o de la interfaz web.
