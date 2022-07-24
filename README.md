@@ -14,13 +14,15 @@ Seafile es un sistema de software de alojamiento de archivos de código abierto 
 * [Docker Image](https://hub.docker.com/r/seafileltd/seafile-mc)
 
 ## Files
+-Creamos carpeta en el directorio de persistencia:
+```
+mkdir seafile/shared
+cd seafile
+```
+
 - Descargamos el repositorio:
 ```
 git clone "https://github.com/JuanRodenas/Seafile.git"
-```
--Creamos carpeta en el directorio de persistencia:
-```
-mkdir shared
 ```
 
 ### Configuration
