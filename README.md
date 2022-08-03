@@ -31,14 +31,19 @@ cd seafile
 git clone "https://github.com/JuanRodenas/Seafile.git"
 ```
 
-### Configuration
+## Configuration
 Sustituya las variables de entorno en `.env` por las suyas propias, y luego ejecute :
 
 ```bash
 docker-compose up -d
 ```
-
+## Acceso
 Entonces debería poder acceder a la web-ui de seafile con el `SEAFILE_ADMIN_EMAIL` y `SEAFILE_ADMIN_PASSWORD`.
+
+<p align="center">
+  <img src="https://github.com/JuanRodenas/Seafile/blob/main/seafile-login.png" 
+       width="1200"/>
+</p>
 
 ## Update
 Si quiere actualizar la imagen automáticamente con watchtower gracias a la siguiente etiqueta:
@@ -47,3 +52,5 @@ Si quiere actualizar la imagen automáticamente con watchtower gracias a la sigu
   # Watchtower Update
   - "com.centurylinklabs.watchtower.enable=true"
 ```
+
+## Ready!
